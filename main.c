@@ -17,6 +17,13 @@ int main(int argc, char** argv)
 	Child2 c2;
 	f(c1);
 	f(c2);
+
+	std::function<void(Child1)> f1;
+	std::function<void(Child2)> f2;
+
+	f1 = [](Child1){};
+	f2 = [](Child2){};
+
 	std::cout << "K thx bai!\n";
 	return 0;
 }
