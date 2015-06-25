@@ -17,8 +17,6 @@ int main(int argc, char** argv)
 	Child2 c2;
 	f(c1);
 	f(c2);
-	f([](Child1 c){});
-	f([](Child2 c){});
 	std::cout << "K thx bai!\n";
 	return 0;
 }
