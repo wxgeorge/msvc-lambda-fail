@@ -24,6 +24,8 @@ int main(int argc, char** argv)
 	f1 = [](Child1){};
 	f2 = [](Child2){};
 
+	f1 = f2;
+
 	std::cout << "K thx bai!\n";
 	return 0;
 }
