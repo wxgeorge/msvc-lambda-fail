@@ -2,8 +2,8 @@
 #include <functional>
 
 class Base {};
-class Child1 : public Base {};
-class Child2 : public Base {};
+class Child1{};
+class Child2{};
 
 void f(Child1 c) { std::cout << "void f(Child1)\n"; }
 void f(Child2 c) { std::cout << "void f(Child2)\n"; }
